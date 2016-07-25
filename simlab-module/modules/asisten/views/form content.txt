@@ -1,0 +1,55 @@
+<div class="card" ng-controller="MDInputCtrl" >
+              <div class="card-heading" style="padding:15px 24px;"  >
+                <h2><i class="mdi-action-account-child"></i>&nbsp;  Basic Usage</h2>
+              </div>
+              <div class="card-body">
+                <div class="row row-sm">
+                 <table>
+              <tr>
+                <td width="35%"> 
+                <div class="col-sm-6">
+                    <div class="md-form-group float-label">
+                      <input class="md-input success" ng-model="user.firstName" required>
+                      <label>Nama Pengguna</label>
+                    </div>
+                  </div>
+                  </td>
+              </tr>
+              <tr>
+                <td><div class="col-sm-6">
+                    <div class="md-form-group float-label">
+                      <input class="md-input" ng-model="user.lastName" required>
+                      <label>Jabatan</label>
+                    </div>
+                  </div></td>
+              </tr>
+              <tr>
+                <td width="35%"> 
+                <div class="col-sm-6">
+                    <div class="md-form-group float-label">
+                      <input class="md-input" ng-model="user.firstName" type="password" required>
+                      <label>Kata Sandi</label>
+                    </div>
+                  </div>
+                  </td>
+              </tr>
+              <tr>
+                <td><div class="col-sm-6">
+                    <div class="md-form-group float-label">
+                      <input class="md-input" ng-model="user.lastName" type="password" required>
+                      <label>Ulangi Kata Sandi</label>
+                    </div>
+                  </div></td>
+              </tr>
+              <tr>
+              <td>
+              <div class="col-sm-6">
+              <button class="btn btn-addon btn-info"><i class="fa fa-save"></i>Tambahkan User</button>
+              </div>
+              </td>
+              </tr>
+            </table> 
+
+                </div>
+              </div>
+            </div>
